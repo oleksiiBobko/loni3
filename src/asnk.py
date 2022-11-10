@@ -32,8 +32,7 @@ if __name__ == "__main__":
     sites = []
 
     for r in rics:
-        url = "https://a206160-tscc-qs-bdev1-use1-2078426464.us-east-1.elb.amazonaws.com/data/historical-pricing/v1/views/interday-summaries/" + r + "?start=2020-12-10T18:00:00.000000000Z&end=2020-12-10T18:50:00.000000000Z&interval=P1D"
-        # url = "http://localhost:8080/data/historical-pricing/v1/views/interday-summaries/" + r + "?start=2020-12-10T18:00:00.000000000Z&end=2020-12-10T18:50:00.000000000Z&interval=P1D"
+        url = "http://localhost"
         sites.append(url)
 
     start_time = time.time()
